@@ -1,8 +1,11 @@
-#def inverterString(texto):
-#  return texto[::-1]
-#
-#texto = input("Escreva a palavra: ")
-#print(inverterString(texto))
+#Fiz de duas maneiras, não sabia se considerariam a primeira
+
+def inverterString(palavra):
+  return palavra[::-1]
+
+palavra = input("Escreva a palavra: ")
+print(inverterString(palavra))
+
 
 
 palavra = input("Informe uma palavra: ")
